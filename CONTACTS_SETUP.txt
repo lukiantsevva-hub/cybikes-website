@@ -1,0 +1,5 @@
+CYBIKES public contacts
+Email: info@cybikes.cy
+Phone / WhatsApp: +357 94 00 99 86
+
+Cloudflare Email Routing forwards incoming messages addressed to info@cybikes.cy to the verified Gmail destination. This is forwarding only, not a full mailbox or outbound sender service.

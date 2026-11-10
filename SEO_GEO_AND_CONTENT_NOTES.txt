@@ -1,0 +1,20 @@
+CYBIKES v65 — SEO / GEO / REVIEWS / BLOG
+
+Implemented:
+- Search-focused title and meta description for HIGHPER electric pit bikes and spare parts in Cyprus.
+- Canonical URL, robots directives, Open Graph and Twitter metadata.
+- Organization, WebSite and Store JSON-LD structured data (no invented street address or opening hours).
+- Cyprus geographic metadata and visible FAQ content.
+- sitemap.xml and robots.txt.
+- Reviews section with a submission form routed to info@cybikes.cy; submissions are not published automatically. Selected photos must be attached manually in the email client.
+- Public blog landing page with editorial categories and article cards.
+
+Important publishing limitation:
+This is a static website. The public blog is ready for content, but an editor that publishes articles and uploaded images to the live site requires a CMS connection (for example Git-based CMS) and an authenticated publishing backend. A browser-only editor would save content only on one device and would not publish it to all visitors. No fake customer reviews have been added.
+
+Before publishing:
+1. Validate the domain and canonical URL.
+2. Add a real public business address only if CYBIKES wants to publish one.
+3. Submit https://cybikes.cy/sitemap.xml in Google Search Console and Bing Webmaster Tools.
+4. Connect a CMS/repository to enable article creation and photo uploads from /admin.
+5. Add real customer reviews only after receiving consent.
