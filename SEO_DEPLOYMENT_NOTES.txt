@@ -1,0 +1,27 @@
+CYBIKES SEO UPDATE — VERSION 66
+
+Included changes:
+1. Homepage H1 changed to “Electric Pit Bikes in Cyprus.” The existing design and supporting marketing paragraph are retained.
+2. Homepage structured data now includes an ItemList linking to the four model detail pages. Existing Organization, WebSite and Store entities are retained.
+3. Added four crawlable English model landing pages:
+   - /electric-pit-bike-hp110e-a/
+   - /electric-pit-bike-hp116e/
+   - /electric-pit-bike-hp117e/
+   - /electric-pit-bike-hp136e/
+   Each page has a unique title, meta description, canonical URL, Open Graph metadata, Product JSON-LD, specifications, image, internal links and enquiry/configurator links.
+4. Updated sitemap.xml to include the homepage and all four model pages.
+5. robots.txt allows crawling and points to the sitemap.
+
+Deployment:
+Upload the CONTENTS of the HIGHPER_v66 folder to the root of the existing GitHub repository, preserving the assets folder and the four model-page folders. Commit to main and allow Cloudflare Pages/Workers deployment to finish.
+
+After deployment:
+- Open each of the five URLs in a browser.
+- Open https://cybikes.cy/sitemap.xml and confirm five URL entries.
+- In Google Search Console, resubmit https://cybikes.cy/sitemap.xml.
+- Use URL Inspection for each model URL and request indexing.
+
+Important:
+- No changes have been published to GitHub or Cloudflare by this archive creation.
+- Base retail prices in Product structured data reflect the current site catalogue: HP110E-A €1,050; HP116E €1,350 for 12/10 (14/12 +€100); HP117E €2,600 for 17/14 (19/16 +€100); HP136E €3,450.
+- Factory specifications and options are subject to confirmation as stated on the pages.
